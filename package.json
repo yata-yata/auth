@@ -6,7 +6,7 @@
     "test": "node ./node_modules/lab/bin/lab -v -c -p"
   },
   "dependencies": {
-    "travelogue": "^2.0.0",
+    "travelogue": "git+ssh://git@github.com:cjihrig/travelogue.git#hapi4",
     "passport": "^0.2.0",
     "hapi": "^4.1.0",
     "yar": "^2.1.0"
