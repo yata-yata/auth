@@ -2,14 +2,14 @@
   "name": "auth",
   "version": "0.1.0",
   "main": "index",
+  "license": "MIT",
   "scripts": {
     "test": "node ./node_modules/lab/bin/lab -v -c -p -t 95"
   },
   "dependencies": {
     "passport-google": "^0.3.0",
-    "orchestrate": "^0.1.2",
-    "node-uuid": "^1.4.1",
-    "hoek": "^2.1.0"
+    "hoek": "^2.1.0",
+    "users-lib": "git+https://github.com/yata-yata/users-lib.git"
   },
   "devDependencies": {
     "lab": "^3.1.1",
