@@ -3,17 +3,16 @@
   "version": "0.1.0",
   "main": "index",
   "scripts": {
-    "test": "node ./node_modules/lab/bin/lab -v -c -p"
+    "test": "node ./node_modules/lab/bin/lab -v -c -p -t 95"
   },
   "dependencies": {
-    "travelogue": "git+ssh://git@github.com:cjihrig/travelogue.git#hapi4",
-    "passport": "^0.2.0",
-    "hapi": "^4.1.0",
-    "yar": "^2.1.0"
+    "passport": "^0.2.0"
   },
   "devDependencies": {
     "lab": "^3.1.1",
-    "hapi": "^4.1.0"
+    "hapi": "^4.1.0",
+    "travelogue": "git+ssh://git@github.com:yata-yata/travelogue.git#hapi4",
+    "yar": "^2.1.0"
   },
   "peerDependencies": {
     "hapi": "4.x"
