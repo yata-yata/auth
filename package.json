@@ -6,7 +6,10 @@
     "test": "node ./node_modules/lab/bin/lab -v -c -p -t 95"
   },
   "dependencies": {
-    "passport": "^0.2.0"
+    "passport-google": "^0.3.0",
+    "orchestrate": "^0.1.2",
+    "node-uuid": "^1.4.1",
+    "hoek": "^2.1.0"
   },
   "devDependencies": {
     "lab": "^3.1.1",
