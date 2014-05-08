@@ -14,7 +14,7 @@
   "devDependencies": {
     "lab": "^3.1.1",
     "hapi": "^4.1.0",
-    "travelogue": "git+https://git@github.com:spumko/travelogue.git",
+    "travelogue": "git+https://github.com/spumko/travelogue.git",
     "yar": "^2.1.0"
   },
   "peerDependencies": {
