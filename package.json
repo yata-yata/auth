@@ -7,9 +7,9 @@
     "test": "node ./node_modules/lab/bin/lab -v -c -p -t 95"
   },
   "dependencies": {
-    "passport-google": "^0.3.0",
     "hoek": "^2.1.0",
-    "users-lib": "git+https://github.com/yata-yata/users-lib.git"
+    "users-lib": "git+https://github.com/yata-yata/users-lib.git",
+    "passport-google-oauth": "^0.1.5"
   },
   "devDependencies": {
     "lab": "^3.1.1",
