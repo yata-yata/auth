@@ -15,7 +15,7 @@
     "lab": ">=3.1.1",
     "hapi": ">=4.1.0",
     "travelogue": ">=2.0.1",
-    "yar": ">=.1.0"
+    "yar": ">=2.1.0"
   },
   "peerDependencies": {
     "hapi": ">=4.x"
