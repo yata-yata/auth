@@ -7,17 +7,17 @@
     "test": "node ./node_modules/lab/bin/lab -v -c -p -t 95"
   },
   "dependencies": {
-    "hoek": ">=2",
+    "hoek": ">=2.1.0",
     "users-lib": "git+https://github.com/yata-yata/users-lib.git",
-    "passport-google-oauth": "*"
+    "passport-google-oauth": ">=0.1.5"
   },
   "devDependencies": {
-    "lab": ">=3",
-    "hapi": ">=4",
+    "lab": ">=3.1.1",
+    "hapi": ">=4.1.0",
     "travelogue": "git+https://github.com/spumko/travelogue.git",
-    "yar": ">=2"
+    "yar": ">=.1.0"
   },
   "peerDependencies": {
-    "hapi": ">=4"
+    "hapi": ">=4.x"
   }
 }
